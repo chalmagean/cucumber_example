@@ -1,2 +1,4 @@
-// Place all the behaviors and hooks related to the matching controller here.
-// All this logic will automatically be available in application.js.
+$(document).click("#js-click-me", function(event) {
+  event.preventDefault();
+  $("body").html("Link Clicked");
+});
